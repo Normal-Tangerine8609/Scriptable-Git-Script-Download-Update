@@ -3,6 +3,8 @@
 // icon-color: red; icon-glyph: file-download;
 // share-sheet-inputs: plain-text, url;
 
+
+//test
 // Type of notification to appear when finished some actions. Can be "notification", "alert" or null/undefined. Do not change anything else.
 const notifyType = "notification" 
 
