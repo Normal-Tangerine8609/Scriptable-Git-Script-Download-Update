@@ -116,7 +116,7 @@ async function addFromUrl(url) {
    let date = new Date(commitsHTMl.match(/<relative-time datetime="(.+?)" class="no-wrap">.+?<\/relative-time>/)[1]).toString()
    let content = await new Request(rawUrl).loadString()
    let name = url.match(/https:\/\/github\.com\/.+?\/(.+?)\//)[1]
-   if(/^\s*https:\/\/github.com\/Normal-Tangerine8609\/Scriptable-Git-Script-Download-Update\/(blob|raw)\/git-script.js\s*$/.test(url)){
+   if(/^\s*https:\/\/github.com\/Normal-Tangerine8609\/Scriptable-Git-Script-Download-Update\/(blob|raw)\/main\/git-script.js\s*$/.test(url)){
      let data = await getData()
   data["scripts"].push({"name":Script.name(),"url":url,"lastEditDate":date})
      fm.writeString(fm.joinPath(baseDir, "githubScripts.json"), JSON.stringify(data))
