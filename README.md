@@ -1,9 +1,9 @@
 # Git Script Download & Update
 ![Logo](/images/logo.jpeg) 
 
-Git Script Download & Update or as a short form, Git Script, provides an integral piece for scriptable users. Most scripts found in the [r/scriptable](git-script.js) subreddit are shared via GitHub. Because of this, many users will download the script but will not regularly pay attention to game changing updates. 
+Git Script Download & Update or as a short form, Git Script, provides an integral piece for scriptable users. Most scripts found in the [r/scriptable](https://www.reddit.com/r/Scriptable/) subreddit are shared via GitHub. Because of this, many users will download the script but will not regularly pay attention to game changing updates. 
 
-With Git Script, users can easily download scriptable scripts from GitHub repositories and keep up to date on updates. Git Script is not made for developers, rather scriptable users. Anyone can use Git Script with its easy-to-use interface. Just download the [code]() to get started.
+With Git Script, users can easily download scriptable scripts from GitHub repositories and keep up to date on updates. Git Script is not made for developers, rather scriptable users. Anyone can use Git Script with its easy-to-use interface. Just download the [code](git-script.js) to get started.
 
 ## Customizing 
 
