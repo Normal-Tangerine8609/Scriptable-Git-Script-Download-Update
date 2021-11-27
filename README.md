@@ -55,6 +55,6 @@ You can share a valid url from the share sheet to add the script. The same event
 
 ## Widgets
 
-![Small](/images/widget.png)
+![Small](/images/widget.jpeg)
 
 Git Script has a simple small widget. Any other sizes of widgets will raise an error. The widget displays the number of scripts that need to be updated.
