@@ -32,7 +32,7 @@ When adding a script you will be promoted to enter the url or use your clipboard
 
 1. From a GitHub respiratory 
 2. Sharing a .js or .scriptable file
-3. Be the raw or blame url
+3. Be the raw or blob url
 
 You will then be prompted to pick a name for the script. You must not leave the name empty or give the script the same name as another script. Then, the script will be downloaded from GitHub under the chosen name of the script and added to the update list. After adding the script a notification will appear depending on the `notifyType`
 
