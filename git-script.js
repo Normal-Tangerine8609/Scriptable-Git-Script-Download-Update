@@ -4,6 +4,7 @@
 // share-sheet-inputs: plain-text, url;
 
 
+
 // Type of notification to appear when finished some actions. Can be "notification", "alert" or null/undefined. Do not change anything else.
 const notifyType = "notification"
 
@@ -104,6 +105,9 @@ async function addFromUrl(url) {
     a.addCancelAction("OK")
     await a.presentAlert()
     return
+  }
+  if(url.startsWith("https://raw.githubusercontent.com")) {
+    url = url.replace("https://raw.githubusercontent.com","https://github.com").replace("/main/","/blob/main/")
   }
   if(!/^\s*https:\/\/github.com\/.+?\/(blob|raw)\/.+?\.(js|scriptable)\s*$/.test(url)) {
     let a = makeAlert("Invalid URL","URL must be a GitHub blob or raw .js or .scriptable file",[])
